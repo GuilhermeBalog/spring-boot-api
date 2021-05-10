@@ -2,24 +2,25 @@ package com.guilhermebalog.hello;
 
 import static org.apache.commons.lang3.RandomStringUtils.randomAlphabetic;
 import static org.apache.commons.lang3.RandomStringUtils.randomNumeric;
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
-import com.guilhermebalog.hello.persistence.model.Book;
-import io.restassured.RestAssured;
-import io.restassured.response.Response;
-import org.junit.jupiter.api.Test;
+import java.util.List;
 
+import org.junit.Test;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 
-import java.util.List;
+import com.guilhermebalog.hello.persistence.model.Book;
+
+import io.restassured.RestAssured;
+import io.restassured.response.Response;
 
 public class SpringBootBootstrapLiveTest {
     private static final String API_ROOT = "http://localhost:8081/api/books";
 
     private Book createRandomBook() {
-        Book book = new Book();
+        final Book book = new Book();
         book.setTitle(randomAlphabetic(10));
         book.setAuthor(randomAlphabetic(10));
 
@@ -27,7 +28,7 @@ public class SpringBootBootstrapLiveTest {
     }
 
     private String createBookAsUri(Book book){
-        Response response = RestAssured.given()
+        final Response response = RestAssured.given()
                 .contentType(MediaType.APPLICATION_JSON_VALUE)
                 .body(book)
                 .post(API_ROOT);
