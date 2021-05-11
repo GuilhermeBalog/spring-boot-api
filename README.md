@@ -39,3 +39,7 @@ Algumas notas que tomei no durante o desenvolvimento.
     // Entidade e repositório para Visita 
     org.springframework.samples.petclinic.visit;
     ```
+  
+### Actuators 
+
+Usado principalmente para expor informações operacionais sobre a aplicação em execução através de endpoints HTTP.
