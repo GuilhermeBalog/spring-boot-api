@@ -43,3 +43,13 @@ Algumas notas que tomei no durante o desenvolvimento.
 ### Actuators 
 
 Usado principalmente para expor informações operacionais sobre a aplicação em execução através de endpoints HTTP.
+
+
+### Arquivos SQL
+
+Para popular o banco assim que a aplicação carrega, podemos definir um arquivo `src/main/resources/data.sql` com os `INSERT`. Ex:
+
+```roomsql
+/* src/main/resources/data.sql */
+INSERT INTO book VALUES (3, 'Spring Boot Deployment', 'Guilherme Balog');
+```
