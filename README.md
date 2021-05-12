@@ -49,7 +49,7 @@ Usado principalmente para expor informações operacionais sobre a aplicação e
 
 Para popular o banco assim que a aplicação carrega, podemos definir um arquivo `src/main/resources/data.sql` com os `INSERT`. Ex:
 
-```roomsql
+```sql
 /* src/main/resources/data.sql */
 INSERT INTO book VALUES (3, 'Spring Boot Deployment', 'Guilherme Balog');
 ```
