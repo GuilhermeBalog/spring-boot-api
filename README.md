@@ -56,6 +56,8 @@ INSERT INTO book VALUES (3, 'Spring Boot Deployment', 'Guilherme Balog');
 
 ## Aulas
 
+Fonte: [Baeldung](https://www.baeldung.com/spring-boot)
+
 - [x] Spring Boot Tutorial – Bootstrap a Simple Application
 - [x] A Comparison Between Spring and Spring Boot
 - [x] Spring Boot Annotations
@@ -66,8 +68,8 @@ INSERT INTO book VALUES (3, 'Spring Boot Deployment', 'Guilherme Balog');
 - [x] Quick Guide on Loading Initial Data with Spring Boot
 - [x] Properties with Spring and Spring Boot (popular)
 - [x] Guide to @ConfigurationProperties in Spring Boot
-- [ ] Automatic Property Expansion with Spring Boot
-- [ ] How to Define a Spring Boot Filter?
+- [x] Automatic Property Expansion with Spring Boot
+- [x] How to Define a Spring Boot Filter?
 - [ ] How to Change the Default Port in Spring Boot
 - [ ] Spring Boot Change Context Path
 - [ ] Spring Boot: Customize Whitelabel Error Page
