@@ -65,7 +65,7 @@ INSERT INTO book VALUES (3, 'Spring Boot Deployment', 'Guilherme Balog');
 - [x] Configure a Spring Boot Web Application
 - [x] Quick Guide on Loading Initial Data with Spring Boot
 - [x] Properties with Spring and Spring Boot (popular)
-- [ ] Guide to @ConfigurationProperties in Spring Boot
+- [x] Guide to @ConfigurationProperties in Spring Boot
 - [ ] Automatic Property Expansion with Spring Boot
 - [ ] How to Define a Spring Boot Filter?
 - [ ] How to Change the Default Port in Spring Boot
