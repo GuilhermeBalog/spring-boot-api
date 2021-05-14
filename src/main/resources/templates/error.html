@@ -1,10 +1,32 @@
 <html lang="en">
-<head><title>Error Occurred</title></head>
+<head><title>Error!</title></head>
+<style>
+    html{
+        height: 100%;
+    }
+    body{
+        font-family: sans-serif;
+        background-color: #e6e6e6;
+        min-height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+    main{
+        text-align: center;
+    }
+    button { cursor: pointer; }
+</style>
 <body>
-<h1>Error Occurred!</h1>
-<b>[<span th:text="${status}">status</span>]
-    <span th:text="${error}">error</span>
-</b>
-<p th:text="${message}">message</p>
+<main>
+    <h1>Error <span th:text="${status}">status</span>!</h1>
+    <b th:text="${error}">error</b>
+    <p th:text="${message}">message</p>
+    <a href="/">
+        <button>Go Home</button>
+    </a>
+</main>
 </body>
 </html>

@@ -71,12 +71,12 @@ Fonte: [Baeldung](https://www.baeldung.com/spring-boot)
   - [x] Properties with Spring and Spring Boot
   - [x] Guide to @ConfigurationProperties in Spring Boot
   - [x] Automatic Property Expansion with Spring Boot
-- [ ] Spring Boot - Customization
+- [x] Spring Boot - Customization
   - [x] How to Define a Spring Boot Filter?
-  - [ ] How to Change the Default Port in Spring Boot
-  - [ ] Spring Boot Change Context Path
-  - [ ] Spring Boot: Customize Whitelabel Error Page
-  - [ ] Using Custom Banners in Spring Boot
+  - [x] How to Change the Default Port in Spring Boot
+  - [x] Spring Boot Change Context Path
+  - [x] Spring Boot: Customize Whitelabel Error Page
+  - [x] Using Custom Banners in Spring Boot
 - [ ] Spring Boot - Testing
   - [ ] Testing in Spring Boot
   - [ ] Exploring the Spring Boot TestRestTemplate
