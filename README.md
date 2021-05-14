@@ -1,10 +1,10 @@
 # Spring Boot API
 
-Minha primeira API feita com Spring Boot.
+Minha primeira API feita com Spring Boot, desenvolvida enquanto acompanhava a série de artigos [Learn Spring Boot](https://www.baeldung.com/spring-boot).
 
 ## Anotações
 
-Algumas notas que tomei no durante o desenvolvimento.
+Algumas notas que tomei durante o desenvolvimento.
 
 ### Estrutura do projeto
 
@@ -78,8 +78,8 @@ Fonte: [Baeldung](https://www.baeldung.com/spring-boot)
   - [x] Spring Boot: Customize Whitelabel Error Page
   - [x] Using Custom Banners in Spring Boot
 - [ ] Spring Boot - Testing
-  - [ ] Testing in Spring Boot
-  - [ ] Exploring the Spring Boot TestRestTemplate
+  - [x] Testing in Spring Boot
+  - [x] Exploring the Spring Boot TestRestTemplate
   - [ ] Quick Guide to @RestClientTest in Spring Boot
   - [ ] Logging in Spring Boot
 - [ ] Spring Boot - Under the Hood
