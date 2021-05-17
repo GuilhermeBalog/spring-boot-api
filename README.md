@@ -77,11 +77,11 @@ Fonte: [Baeldung](https://www.baeldung.com/spring-boot)
   - [x] Spring Boot Change Context Path
   - [x] Spring Boot: Customize Whitelabel Error Page
   - [x] Using Custom Banners in Spring Boot
-- [ ] Spring Boot - Testing
+- [x] Spring Boot - Testing
   - [x] Testing in Spring Boot
   - [x] Exploring the Spring Boot TestRestTemplate
-  - [ ] Quick Guide to @RestClientTest in Spring Boot
-  - [ ] Logging in Spring Boot
+  - [x] Quick Guide to @RestClientTest in Spring Boot
+  - [x] Logging in Spring Boot
 - [ ] Spring Boot - Under the Hood
   - [ ] Creating a Custom Starter with Spring Boot
   - [ ] Create a Custom Auto-Configuration with Spring Boot
