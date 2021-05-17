@@ -82,12 +82,12 @@ Fonte: [Baeldung](https://www.baeldung.com/spring-boot)
   - [x] Exploring the Spring Boot TestRestTemplate
   - [x] Quick Guide to @RestClientTest in Spring Boot
   - [x] Logging in Spring Boot
-- [ ] Spring Boot - Under the Hood
-  - [ ] Creating a Custom Starter with Spring Boot
-  - [ ] Create a Custom Auto-Configuration with Spring Boot
-  - [ ] Display Auto-Configuration Report in Spring Boot
-  - [ ] How to Get All Spring-Managed Beans?
-  - [ ] Spring Boot Security Auto-Configuration
+- [X] Spring Boot - Under the Hood
+  - [x] Creating a Custom Starter with Spring Boot
+  - [x] Create a Custom Auto-Configuration with Spring Boot
+  - [x] Display Auto-Configuration Report in Spring Boot
+  - [x] How to Get All Spring-Managed Beans?
+  - [x] Spring Boot Security Auto-Configuration
 - [ ] Spring Boot - Persistence
   - [ ] Quick Guide on Loading Initial Data with Spring Boot
   - [ ] Spring Boot with Multiple SQL Import Files
