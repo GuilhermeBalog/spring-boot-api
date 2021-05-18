@@ -2,6 +2,8 @@
 
 Minha primeira API feita com Spring Boot, desenvolvida enquanto acompanhava a série de artigos [Learn Spring Boot](https://www.baeldung.com/spring-boot).
 
+![Thumbnail](docs/thumb.jpeg)
+
 Acesse: https://guilhermebalog-spring.herokuapp.com/
 
 A API possui apenas um endpoint: `/api/books`, que possui as operações de CRUD, através dos métodos HTTP (GET, POST, PUT e DELETE).
