@@ -2,6 +2,16 @@
 
 Minha primeira API feita com Spring Boot, desenvolvida enquanto acompanhava a série de artigos [Learn Spring Boot](https://www.baeldung.com/spring-boot).
 
+Acesse: https://guilhermebalog-spring.herokuapp.com/
+
+A API possui apenas um endpoint: `/api/books`, que possui as operações de CRUD, através dos métodos HTTP (GET, POST, PUT e DELETE).
+
+Além disso, há uma página inicial e uma página de erro:
+
+![Home Page](docs/home.png)
+
+![Error Page](docs/error.png)
+
 ## Anotações
 
 Algumas notas que tomei durante o desenvolvimento.
@@ -82,14 +92,14 @@ Fonte: [Baeldung](https://www.baeldung.com/spring-boot)
   - [x] Exploring the Spring Boot TestRestTemplate
   - [x] Quick Guide to @RestClientTest in Spring Boot
   - [x] Logging in Spring Boot
-- [X] Spring Boot - Under the Hood
+- [x] Spring Boot - Under the Hood
   - [x] Creating a Custom Starter with Spring Boot
   - [x] Create a Custom Auto-Configuration with Spring Boot
   - [x] Display Auto-Configuration Report in Spring Boot
   - [x] How to Get All Spring-Managed Beans?
   - [x] Spring Boot Security Auto-Configuration
-- [ ] Spring Boot - Persistence
-  - [ ] Quick Guide on Loading Initial Data with Spring Boot
-  - [ ] Spring Boot with Multiple SQL Import Files
-  - [ ] Show Hibernate/JPA SQL Statements from Spring Boot
-  - [ ] Spring Boot With H2 Database
+- [x] Spring Boot - Persistence
+  - [x] Quick Guide on Loading Initial Data with Spring Boot
+  - [x] Spring Boot with Multiple SQL Import Files
+  - [x] Show Hibernate/JPA SQL Statements from Spring Boot
+  - [x] Spring Boot With H2 Database
